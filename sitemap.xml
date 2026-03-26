@@ -41,6 +41,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://escooterhaven.com/posts/bird-3-scooter-wiring-diagram.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://escooterhaven.com/posts/bird-scooter-wiring-diagram.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -96,6 +101,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://escooterhaven.com/posts/electric-scooter-circuit-breaker.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://escooterhaven.com/posts/electric-scooter-error-codes.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://escooterhaven.com/posts/electric-scooter-flat-tire-repair.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -116,6 +131,26 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://escooterhaven.com/posts/electric-scooter-p-settings.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://escooterhaven.com/posts/electric-scooter-puncture-repair.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://escooterhaven.com/posts/electric-scooter-shuts-off-while-riding.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://escooterhaven.com/posts/electric-scooter-solid-tire-replacement.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://escooterhaven.com/posts/electric-scooter-throttle-not-working.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -132,6 +167,11 @@
   </url>
   <url>
     <loc>http://escooterhaven.com/posts/electric-scooter-tire-repair.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://escooterhaven.com/posts/electric-scooter-troubleshooting.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -182,6 +222,11 @@
   </url>
   <url>
     <loc>http://escooterhaven.com/posts/hover-1-electric-scooter-charge-display.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://escooterhaven.com/posts/hoverboard-beeping.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -251,6 +296,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://escooterhaven.com/posts/how-to-hack-a-lime-scooter.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://escooterhaven.com/posts/how-to-make-electric-scooter-faster.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -301,6 +351,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://escooterhaven.com/posts/how-to-turn-off-speed-limit-on-segway-ninebot-max-g30.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://escooterhaven.com/posts/how-to-turn-off-speed-limit-on-segway-ninebot.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -337,6 +392,11 @@
   </url>
   <url>
     <loc>http://escooterhaven.com/posts/kymco-scooter-reviews.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://escooterhaven.com/posts/kymco-x-town-300i-problems.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -431,6 +491,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://escooterhaven.com/posts/mobility-scooter-weight.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://escooterhaven.com/posts/nevada-electric-scooter-laws.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -446,7 +511,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://escooterhaven.com/posts/ninebot-max-rear-wheel-replacement.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://escooterhaven.com/posts/ninebot-max-speed-unlock.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://escooterhaven.com/posts/ninebot-max-tire-replacement.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -457,6 +532,11 @@
   </url>
   <url>
     <loc>http://escooterhaven.com/posts/ninebot-speed-limiter.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://escooterhaven.com/posts/p-settings-electric-scooter.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -487,6 +567,11 @@
   </url>
   <url>
     <loc>http://escooterhaven.com/posts/scooter-ignition-switch-replacement.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://escooterhaven.com/posts/scooter-tire-repair.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -552,6 +637,11 @@
   </url>
   <url>
     <loc>http://escooterhaven.com/posts/where-is-the-reset-button-on-a-jetson-scooter.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://escooterhaven.com/posts/why-is-my-hoverboard-beeping.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>

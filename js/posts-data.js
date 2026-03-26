@@ -18,6 +18,15 @@ const ALL_POSTS = [
     "emoji": "🛴"
   },
   {
+    "file": "posts/bird-3-scooter-wiring-diagram.html",
+    "title": "Bird 3 Scooter Wiring Guide: DIY Repair & Safety Tips",
+    "desc": "Understand your Bird 3 scooter's wiring diagram. Learn safety protocols, component identification, and step-by-step troubleshootin",
+    "badge_class": "badge-repair",
+    "badge_label": "Repair Guides",
+    "read_time": "7 min read",
+    "emoji": "🔧"
+  },
+  {
     "file": "posts/bird-scooter-wiring-diagram.html",
     "title": "Bird Scooter Wiring Guide: Safety, Diagrams & Repair Tips",
     "desc": "Understand Bird scooter wiring diagrams for safe troubleshooting. Learn about key components, safety warnings, and when to seek pr",
@@ -117,6 +126,15 @@ const ALL_POSTS = [
     "emoji": "🔧"
   },
   {
+    "file": "posts/electric-scooter-circuit-breaker.html",
+    "title": "Electric Scooter Circuit Breaker Guide: Safety & Troubleshooting",
+    "desc": "Learn what an electric scooter circuit breaker does, why it trips, and how to safely reset it. Essential troubleshooting guide for",
+    "badge_class": "badge-repair",
+    "badge_label": "Repair Guides",
+    "read_time": "6 min read",
+    "emoji": "🔧"
+  },
+  {
     "file": "posts/electric-scooter-error-codes.html",
     "title": "Decode Your Scooter: A Guide to Electric Scooter Error Codes",
     "desc": "Confused by beeps and error codes on your e-scooter? Our guide explains common error codes, what they mean, and how to fix them to",
@@ -162,13 +180,40 @@ const ALL_POSTS = [
     "emoji": "🛠️"
   },
   {
-    "file": "posts/electric-scooter-shuts-off-while-riding.html",
-    "title": "Why Your Electric Scooter Shuts Off While Riding & How to Fix It",
-    "desc": "Your e-scooter shutting off mid-ride is dangerous & frustrating. Learn the top causes, from battery issues to loose connections, a",
+    "file": "posts/electric-scooter-p-settings.html",
+    "title": "Unlock Your Scooter: A Complete Guide to P-Settings",
+    "desc": "Master your electric scooter's P-Settings. Learn what they control, how to adjust them safely, and optimize your ride for speed, s",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
     "emoji": "⚡"
+  },
+  {
+    "file": "posts/electric-scooter-puncture-repair.html",
+    "title": "Fix a Flat: Your Guide to Electric Scooter Puncture Repair",
+    "desc": "Got a flat tire? Learn how to repair an electric scooter puncture step-by-step. We cover DIY kits, sealants, and when to call a pr",
+    "badge_class": "badge-repair",
+    "badge_label": "Repair Guides",
+    "read_time": "8 min read",
+    "emoji": "🔧"
+  },
+  {
+    "file": "posts/electric-scooter-shuts-off-while-riding.html",
+    "title": "Why Your Electric Scooter Shuts Off While Riding & How to Fix It",
+    "desc": "Your e-scooter shutting off mid-ride is dangerous. Learn the top causes, from battery issues to loose connections, and get step-by",
+    "badge_class": "badge-tips",
+    "badge_label": "Tips & Tricks",
+    "read_time": "8 min read",
+    "emoji": "⚡"
+  },
+  {
+    "file": "posts/electric-scooter-solid-tire-replacement.html",
+    "title": "How to Replace Solid Scooter Tires: A Complete Guide",
+    "desc": "Learn when and how to replace solid electric scooter tires. Our step-by-step guide covers tools, installation tips, and maintenanc",
+    "badge_class": "badge-repair",
+    "badge_label": "Repair Guides",
+    "read_time": "7 min read",
+    "emoji": "🔧"
   },
   {
     "file": "posts/electric-scooter-throttle-not-working.html",
@@ -306,6 +351,15 @@ const ALL_POSTS = [
     "emoji": "🔋"
   },
   {
+    "file": "posts/hoverboard-beeping.html",
+    "title": "Hoverboard Beeping? Decode the Sounds & Fix It Fast",
+    "desc": "Your hoverboard beeping is a warning. Learn what each beep code means, from low battery to sensor issues, and get step-by-step tro",
+    "badge_class": "badge-repair",
+    "badge_label": "Repair Guides",
+    "read_time": "7 min read",
+    "emoji": "🔧"
+  },
+  {
     "file": "posts/how-do-lime-scooters-charge.html",
     "title": "How Lime Scooters Charge: The Juicer Network Explained",
     "desc": "Ever wonder how Lime scooters get their power? We reveal how the charging network works, who charges them, and what it means for y",
@@ -423,6 +477,15 @@ const ALL_POSTS = [
     "emoji": "⚡"
   },
   {
+    "file": "posts/how-to-hack-a-lime-scooter.html",
+    "title": "Lime Scooter Hacks: Safe Riding Tips & Tricks",
+    "desc": "Learn safe, legal 'hacks' for riding Lime scooters. Get tips on finding scooters, extending battery life, safe parking, and maximi",
+    "badge_class": "badge-tips",
+    "badge_label": "Tips & Tricks",
+    "read_time": "6 min read",
+    "emoji": "⚡"
+  },
+  {
     "file": "posts/how-to-make-electric-scooter-faster.html",
     "title": "How to Make Your Electric Scooter Faster & Safer",
     "desc": "Learn proven methods to increase your e-scooter's speed. From simple tweaks to advanced upgrades, get safe, practical advice to bo",
@@ -510,6 +573,15 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "5 min read",
+    "emoji": "⚡"
+  },
+  {
+    "file": "posts/how-to-turn-off-speed-limit-on-segway-ninebot-max-g30.html",
+    "title": "Remove Segway Ninebot Max G30 Speed Limit Safely",
+    "desc": "Learn how to safely remove the speed limit on your Segway Ninebot Max G30. Our guide covers firmware flashing, regional settings, ",
+    "badge_class": "badge-tips",
+    "badge_label": "Tips & Tricks",
+    "read_time": "7 min read",
     "emoji": "⚡"
   },
   {
@@ -758,7 +830,7 @@ const ALL_POSTS = [
   {
     "file": "posts/mobility-scooter-weight.html",
     "title": "Mobility Scooter Weight Guide: Capacity, Transport & More",
-    "desc": "Understand mobility scooter weight: user capacity, vehicle weight for transport, and how it impacts performance. Essential guide f",
+    "desc": "Understand mobility scooter weight limits, curb weight, and how it affects transport, safety, and performance. Essential guide for",
     "badge_class": "badge-buying",
     "badge_label": "Buying Guides",
     "read_time": "6 min read",
@@ -792,6 +864,15 @@ const ALL_POSTS = [
     "emoji": "⚡"
   },
   {
+    "file": "posts/ninebot-max-rear-wheel-replacement.html",
+    "title": "How to Replace Your Ninebot Max Rear Wheel | Step-by-Step Guide",
+    "desc": "Learn how to replace the rear wheel on your Segway Ninebot Max G30. Our detailed guide covers tools, steps, and tips for a safe an",
+    "badge_class": "badge-repair",
+    "badge_label": "Repair Guides",
+    "read_time": "8 min read",
+    "emoji": "🔧"
+  },
+  {
     "file": "posts/ninebot-max-speed-unlock.html",
     "title": "Unlock Ninebot Max Speed: A Complete Safety & Guide",
     "desc": "Considering unlocking your Ninebot Max speed? Our detailed guide covers the methods, risks, warranty impact, and safety essentials",
@@ -799,6 +880,15 @@ const ALL_POSTS = [
     "badge_label": "Tips & Tricks",
     "read_time": "8 min read",
     "emoji": "⚡"
+  },
+  {
+    "file": "posts/ninebot-max-tire-replacement.html",
+    "title": "Ninebot Max Tire Replacement Guide: DIY Steps & Tips",
+    "desc": "Learn how to replace your Ninebot Max tires with our detailed guide. Includes step-by-step instructions, essential tools, and expe",
+    "badge_class": "badge-repair",
+    "badge_label": "Repair Guides",
+    "read_time": "8 min read",
+    "emoji": "🔧"
   },
   {
     "file": "posts/ninebot-scooter-app.html",
@@ -816,6 +906,15 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
+    "emoji": "⚡"
+  },
+  {
+    "file": "posts/p-settings-electric-scooter.html",
+    "title": "Master Your E-Scooter: A Complete Guide to P-Settings",
+    "desc": "Unlock your electric scooter's full potential! Our detailed guide explains all P-Settings, from speed limits to regenerative braki",
+    "badge_class": "badge-tips",
+    "badge_label": "Tips & Tricks",
+    "read_time": "8 min read",
     "emoji": "⚡"
   },
   {
@@ -996,6 +1095,15 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "5 min read",
+    "emoji": "🔧"
+  },
+  {
+    "file": "posts/why-is-my-hoverboard-beeping.html",
+    "title": "Hoverboard Beeping? 7 Common Causes & How to Fix",
+    "desc": "Your hoverboard beeping is a warning. Learn the 7 most common reasons for beeping sounds, from low battery to wheel issues, and ge",
+    "badge_class": "badge-repair",
+    "badge_label": "Repair Guides",
+    "read_time": "6 min read",
     "emoji": "🔧"
   }
 ];
