@@ -323,13 +323,6 @@
     `).join('');
 
     renderPagination(page);
-    // Scroll smoothly to top of blog grid, not top of page
-    const gridTop = document.getElementById('blog-grid');
-    if (gridTop) {
-      const header = document.getElementById('site-header');
-      const offset = gridTop.getBoundingClientRect().top + window.scrollY - (header ? header.offsetHeight + 20 : 80);
-      window.scrollTo({top: offset, behavior: 'smooth'});
-    }
   }
 
   function renderPagination(page) {
