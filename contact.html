@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — eScooterHaven</title>
+  <meta name="description" content="Get in touch with the eScooterHaven team. We reply to every message within 24 hours. Ask a repair question, suggest a topic, or just say hello." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div id="reading-progress"></div>
+
+<!-- HEADER -->
+<header id="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><span class="logo-bolt">⚡</span>eScooter<span>Haven</span></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Repair Guides</a>
+        <a href="blog.html#buying">Buying Guides</a>
+        <a href="blog.html#maintenance">Maintenance</a>
+        <a href="about.html">About</a>
+        <a href="start-here.html" class="nav-highlight">Start Here</a>
+      </nav>
+      <div class="header-actions">
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="blog.html">Repair Guides</a>
+  <a href="blog.html#buying">Buying Guides</a>
+  <a href="blog.html#maintenance">Maintenance</a>
+  <a href="about.html">About</a>
+  <a href="start-here.html">Start Here ⚡</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-content">
+      <div class="hero-badge" style="margin-bottom:1rem;">We're Listening</div>
+      <h1>Get in Touch</h1>
+      <p>Have a repair question, scooter recommendation request, or just want to say hello? We read every message and reply within 24 hours.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT CONTENT -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="#" method="post" novalidate>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+            <div class="form-group">
+              <label for="first-name">First Name *</label>
+              <input type="text" id="first-name" name="first_name" placeholder="Alex" required minlength="2" maxlength="50" />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name *</label>
+              <input type="text" id="last-name" name="last_name" placeholder="Rivera" required minlength="2" maxlength="50" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">What is this about?</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic…</option>
+              <option value="repair">Repair Help / Troubleshooting</option>
+              <option value="buying">Buying Advice</option>
+              <option value="guide-suggestion">Suggest a Guide Topic</option>
+              <option value="correction">Report an Error</option>
+              <option value="partnership">Partnership / Collaboration</option>
+              <option value="press">Press / Media Inquiry</option>
+              <option value="other">Something Else</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message *</label>
+            <textarea id="message" name="message" placeholder="Tell us what's going on, what scooter model you have, and any other details that might help…" required minlength="20" maxlength="2000"></textarea>
+          </div>
+          <div class="form-group" style="display:flex;align-items:flex-start;gap:0.75rem;">
+            <input type="checkbox" id="consent" name="consent" required style="width:auto;margin-top:3px;" />
+            <label for="consent" style="font-size:0.85rem;font-weight:400;color:var(--gray-600);cursor:pointer;">I agree to be contacted by the eScooterHaven team regarding my inquiry. We'll never share your details with anyone.</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center;">Send Message →</button>
+        </form>
+      </div>
+
+      <!-- Info Cards -->
+      <div class="contact-info-cards">
+        <div class="info-card">
+          <div class="info-card-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <div>
+            <h4>Email Us</h4>
+            <p><a href="mailto:contact@escooterhaven.com" style="color:var(--accent-dark);text-decoration:underline;">contact@escooterhaven.com</a></p>
+            <p>Best for detailed questions and partnership inquiries.</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+          </div>
+          <div>
+            <h4>Response Time</h4>
+            <p>We reply to every message <strong style="color:var(--text);">within 24 hours</strong>, usually much faster. During busy periods, allow up to 48 hours.</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          </div>
+          <div>
+            <h4>Got a Repair Question?</h4>
+            <p>Check our <a href="blog.html#repair" style="color:var(--accent-dark);text-decoration:underline;">Repair Guides</a> first — we may have already answered it in detail. We have 50+ step-by-step fix guides covering the most common problems.</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <div>
+            <h4>Join Our Community</h4>
+            <p>Follow us on <a href="#" style="color:var(--accent-dark);text-decoration:underline;">Instagram</a> and <a href="#" style="color:var(--accent-dark);text-decoration:underline;">YouTube</a> for daily tips, scooter reviews, and live Q&amp;A sessions.</p>
+          </div>
+        </div>
+
+        <div style="background:var(--accent-light);border-radius:var(--radius);padding:1.5rem;text-align:center;">
+          <div style="font-size:1.75rem;margin-bottom:0.75rem;">📬</div>
+          <h4 style="font-size:1rem;margin-bottom:0.5rem;">Subscribe for Weekly Tips</h4>
+          <p style="font-size:0.875rem;color:var(--gray-600);margin-bottom:1rem;">Join 15,000+ riders getting our best guides every week.</p>
+          <form action="#" method="post" style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+            <input type="email" placeholder="Your email" style="flex:1;padding:0.65rem 0.875rem;border:1.5px solid var(--gray-200);border-radius:8px;font-size:0.875rem;outline:none;min-width:160px;" />
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><span class="logo-bolt">⚡</span>eScooter<span>Haven</span></a>
+        <p style="margin-top:1rem;">Your trusted source for electric scooter guides, repairs, and buying advice since 2024.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="start-here.html">Start Here</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Top Categories</h4>
+        <ul>
+          <li><a href="blog.html#repair">Repair Guides</a></li>
+          <li><a href="blog.html#buying">Buying Guides</a></li>
+          <li><a href="blog.html#battery">Battery &amp; Charging</a></li>
+          <li><a href="blog.html#troubleshooting">Troubleshooting</a></li>
+          <li><a href="blog.html#maintenance">Maintenance</a></li>
+          <li><a href="blog.html#safety">Safety Tips</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          <span>contact@escooterhaven.com</span>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" class="social-link"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.4a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75,15.02 15.5,12 9.75,8.98 9.75,15.02"/></svg></a>
+          <a href="#" class="social-link"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.213 5.567zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 eScooterHaven.com — All rights reserved</p>
+      <div class="footer-bottom-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="privacy.html#affiliate">Affiliate Disclosure</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top">
+  <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+<script src="js/main.js"></script>
+</body>
+</html>

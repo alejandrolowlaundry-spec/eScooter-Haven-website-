@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>eScooterHaven — Electric Scooter Repairs, Guides & Tips</title>
+  <meta name="description" content="Your #1 resource for electric scooter repair guides, buying advice, and maintenance tips. Step-by-step guides written for real riders." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Reading Progress -->
+<div id="reading-progress"></div>
+
+<!-- ===== HEADER ===== -->
+<header id="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-bolt">⚡</span>
+        eScooter<span>Haven</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="blog.html#repair">Repair Guides</a>
+        <a href="blog.html#buying">Buying Guides</a>
+        <a href="blog.html#maintenance">Maintenance</a>
+        <a href="about.html">About</a>
+        <a href="start-here.html" class="nav-highlight">Start Here</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="blog.html" class="btn-icon" title="Search guides">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Nav -->
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="blog.html#repair">Repair Guides</a>
+  <a href="blog.html#buying">Buying Guides</a>
+  <a href="blog.html#maintenance">Maintenance</a>
+  <a href="about.html">About</a>
+  <a href="start-here.html">Start Here ⚡</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        #1 Electric Scooter Resource
+      </div>
+      <h1>Your #1 Hub for Electric Scooter <span class="highlight">Repairs, Guides &amp; Tips</span></h1>
+      <p class="hero-sub">Step-by-step repair guides, honest buying advice, and maintenance tips — written for real riders, not engineers.</p>
+      <div class="hero-buttons">
+        <a href="blog.html#repair" class="btn btn-primary btn-lg">Browse Repair Guides</a>
+        <a href="blog.html#buying" class="btn btn-outline btn-lg">Find Your Perfect Scooter</a>
+      </div>
+      <div class="hero-trust">
+        <span>✓ Trusted by 15,000+ riders</span>
+        <span class="dot"></span>
+        <span>✓ 200+ free guides</span>
+        <span class="dot"></span>
+        <span>✓ Updated weekly</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRUST BAR ===== -->
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong data-count="200" data-suffix="+">200+</strong>
+          <span>Free Guides</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong data-count="15000" data-suffix="+">15,000+</strong>
+          <span>Riders Helped</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>Expert</strong>
+          <span>Verified Content</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>New Content</strong>
+          <span>Every Week</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BROWSE BY CATEGORY ===== -->
+<section class="section bg-gray">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title">What Are You Looking For?</h2>
+      <p class="section-subtitle">Browse every topic we cover — from fixing a dead battery to finding your dream scooter.</p>
+    </div>
+    <div class="category-grid">
+      <a href="blog.html#repair" class="category-card">
+        <div class="category-icon cat-repair">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <h3>Repair Guides</h3>
+        <p>Fix any scooter problem step by step</p>
+      </a>
+      <a href="blog.html#troubleshooting" class="category-card">
+        <div class="category-icon cat-trouble">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </div>
+        <h3>Troubleshooting</h3>
+        <p>Diagnose what's wrong with your scooter</p>
+      </a>
+      <a href="blog.html#maintenance" class="category-card">
+        <div class="category-icon cat-maintenance">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <h3>Maintenance</h3>
+        <p>Keep your scooter running like new</p>
+      </a>
+      <a href="blog.html#buying" class="category-card">
+        <div class="category-icon cat-buying">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+        </div>
+        <h3>Buying Guides</h3>
+        <p>Find the perfect scooter for your needs</p>
+      </a>
+      <a href="blog.html#reviews" class="category-card">
+        <div class="category-icon cat-reviews">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+        </div>
+        <h3>Reviews</h3>
+        <p>Honest, in-depth scooter reviews</p>
+      </a>
+      <a href="blog.html#comparisons" class="category-card">
+        <div class="category-icon cat-compare">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/></svg>
+        </div>
+        <h3>Comparisons</h3>
+        <p>Side-by-side model comparisons</p>
+      </a>
+      <a href="blog.html#battery" class="category-card">
+        <div class="category-icon cat-battery">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <h3>Battery &amp; Charging</h3>
+        <p>Extend battery life and fix charging issues</p>
+      </a>
+      <a href="blog.html#tires" class="category-card">
+        <div class="category-icon cat-tires">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M12 3v3m0 12v3M3 12h3m12 0h3"/></svg>
+        </div>
+        <h3>Tires &amp; Brakes</h3>
+        <p>Tire replacement and brake adjustment guides</p>
+      </a>
+      <a href="blog.html#motor" class="category-card">
+        <div class="category-icon cat-motor">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93l-1.41 1.41M5.34 18.66l-1.41 1.41M18.66 18.66l1.41 1.41M4.93 4.93l1.41 1.41M12 2v2m0 18v2M2 12H0m22 0h-2"/></svg>
+        </div>
+        <h3>Motors &amp; Controllers</h3>
+        <p>Motor and controller troubleshooting</p>
+      </a>
+      <a href="blog.html#safety" class="category-card">
+        <div class="category-icon cat-safety">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <h3>Safety Tips</h3>
+        <p>Ride safely and protect yourself</p>
+      </a>
+      <a href="start-here.html" class="category-card">
+        <div class="category-icon cat-beginner">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+        </div>
+        <h3>Beginner Guides</h3>
+        <p>New to e-scooters? Start here</p>
+      </a>
+      <a href="blog.html#accessories" class="category-card">
+        <div class="category-icon cat-accessories">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+        </div>
+        <h3>Accessories</h3>
+        <p>Best accessories and upgrades</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FEATURED GUIDES ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title">Most Popular Guides</h2>
+      <p class="section-subtitle">The guides our readers come back to again and again</p>
+    </div>
+    <div class="blog-grid">
+      <div class="blog-card featured">
+        <div class="blog-card-img img-repair">🔧</div>
+        <div class="blog-card-body">
+          <div class="blog-card-badge"><span class="badge badge-repair">Repair Guides</span></div>
+          <h3><a href="posts/how-to-fix-electric-scooter-not-turning-on.html">How to Fix an Electric Scooter That Won't Turn On</a></h3>
+          <p>A dead scooter is frustrating, but it's usually fixable without a trip to the shop. We walk through every possible cause and exactly how to fix it.</p>
+          <div class="blog-card-meta">
+            <span>
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Jan 15, 2025
+            </span>
+            <span>
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+              8 min read
+            </span>
+            <a href="posts/how-to-fix-electric-scooter-not-turning-on.html" class="text-link" style="margin-left:auto;">Read Guide →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-card featured">
+        <div class="blog-card-img img-buying">🛴</div>
+        <div class="blog-card-body">
+          <div class="blog-card-badge"><span class="badge badge-buying">Buying Guides</span></div>
+          <h3><a href="posts/best-electric-scooters-beginners.html">Best Electric Scooters for Beginners in 2025</a></h3>
+          <p>Not sure which scooter to buy first? We tested and ranked the top models for new riders based on safety, ease of use, and value for money.</p>
+          <div class="blog-card-meta">
+            <span>
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Feb 3, 2025
+            </span>
+            <span>
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+              12 min read
+            </span>
+            <a href="posts/best-electric-scooters-beginners.html" class="text-link" style="margin-left:auto;">Read Guide →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-card featured">
+        <div class="blog-card-img img-maintenance">🛠️</div>
+        <div class="blog-card-body">
+          <div class="blog-card-badge"><span class="badge badge-maintenance">Maintenance</span></div>
+          <h3><a href="posts/electric-scooter-maintenance-guide.html">Complete Electric Scooter Maintenance Guide</a></h3>
+          <p>A well-maintained scooter lasts years longer. This guide covers everything from weekly checks to annual service — with printable checklists.</p>
+          <div class="blog-card-meta">
+            <span>
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Mar 10, 2025
+            </span>
+            <span>
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+              15 min read
+            </span>
+            <a href="posts/electric-scooter-maintenance-guide.html" class="text-link" style="margin-left:auto;">Read Guide →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FIX YOUR SCOOTER CTA ===== -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Is Your Scooter Acting Up?</h2>
+      <p>Don't pay for expensive repairs. Our step-by-step guides walk you through fixing the most common electric scooter problems — even if you've never picked up a screwdriver.</p>
+      <a href="blog.html#repair" class="btn btn-white btn-lg">Browse All Repair Guides →</a>
+      <div class="cta-stats">
+        <div class="cta-stat">
+          <strong>50+</strong>
+          <span>Repair Guides</span>
+        </div>
+        <div class="cta-stat">
+          <strong>Step-by-Step</strong>
+          <span>Instructions</span>
+        </div>
+        <div class="cta-stat">
+          <strong>Free</strong>
+          <span>Forever</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LATEST ARTICLES ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+      <div>
+        <h2 class="section-title">Latest Articles</h2>
+        <p class="section-subtitle" style="margin-bottom:0;">Fresh guides, tips, and advice every week</p>
+      </div>
+      <a href="blog.html" class="btn btn-outline-dark">View All Articles →</a>
+    </div>
+    <div class="blog-grid">
+      <div class="blog-card">
+        <div class="blog-card-img img-battery">🔋</div>
+        <div class="blog-card-body">
+          <div class="blog-card-badge"><span class="badge badge-battery">Battery &amp; Charging</span></div>
+          <h3><a href="posts/electric-scooter-battery-not-charging.html">Electric Scooter Battery Not Charging? Here's Why and How to Fix It</a></h3>
+          <p>If your scooter refuses to charge, don't panic. We cover the 7 most common reasons and how to diagnose each one at home.</p>
+          <div class="blog-card-meta">
+            <span>Mar 18, 2025</span>
+            <span>9 min read</span>
+            <a href="posts/electric-scooter-battery-not-charging.html" class="text-link" style="margin-left:auto;">Read →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="blog-card-img img-tires">🔩</div>
+        <div class="blog-card-body">
+          <div class="blog-card-badge"><span class="badge badge-repair">Repair Guides</span></div>
+          <h3><a href="posts/how-to-replace-scooter-tires.html">How to Replace Electric Scooter Tires (Complete Guide)</a></h3>
+          <p>A flat tire doesn't have to mean a costly repair visit. This step-by-step guide walks you through the entire replacement process.</p>
+          <div class="blog-card-meta">
+            <span>Mar 5, 2025</span>
+            <span>11 min read</span>
+            <a href="posts/how-to-replace-scooter-tires.html" class="text-link" style="margin-left:auto;">Read →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="blog-card-img img-trouble">⚡</div>
+        <div class="blog-card-body">
+          <div class="blog-card-badge"><span class="badge badge-trouble">Troubleshooting</span></div>
+          <h3><a href="posts/how-to-fix-electric-scooter-not-turning-on.html">Electric Scooter Won't Turn On: 8 Causes and Fixes</a></h3>
+          <p>From a dead battery to a blown fuse — we run through every cause of a scooter that won't power up and exactly how to fix it.</p>
+          <div class="blog-card-meta">
+            <span>Feb 28, 2025</span>
+            <span>8 min read</span>
+            <a href="posts/how-to-fix-electric-scooter-not-turning-on.html" class="text-link" style="margin-left:auto;">Read →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="blog-card-img img-buying">🏆</div>
+        <div class="blog-card-body">
+          <div class="blog-card-badge"><span class="badge badge-buying">Buying Guides</span></div>
+          <h3><a href="posts/best-electric-scooters-beginners.html">Best Electric Scooters for Adults in 2025</a></h3>
+          <p>Our comprehensive roundup of the best adult electric scooters at every price point, based on real-world testing and hundreds of reader reviews.</p>
+          <div class="blog-card-meta">
+            <span>Feb 20, 2025</span>
+            <span>14 min read</span>
+            <a href="posts/best-electric-scooters-beginners.html" class="text-link" style="margin-left:auto;">Read →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="blog-card-img img-battery">⚡</div>
+        <div class="blog-card-body">
+          <div class="blog-card-badge"><span class="badge badge-battery">Battery &amp; Charging</span></div>
+          <h3><a href="posts/electric-scooter-battery-not-charging.html">How Long Do Electric Scooter Batteries Last?</a></h3>
+          <p>Most e-scooter batteries last 2–5 years, but that range depends on how you charge, store, and ride. Here's everything that affects battery lifespan.</p>
+          <div class="blog-card-meta">
+            <span>Feb 12, 2025</span>
+            <span>7 min read</span>
+            <a href="posts/electric-scooter-battery-not-charging.html" class="text-link" style="margin-left:auto;">Read →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="blog-card-img img-maintenance">🔧</div>
+        <div class="blog-card-body">
+          <div class="blog-card-badge"><span class="badge badge-maintenance">Maintenance</span></div>
+          <h3><a href="posts/electric-scooter-maintenance-guide.html">Electric Scooter Brake Adjustment: Step-by-Step Guide</a></h3>
+          <p>Spongy brakes or a brake that pulls to one side are safety hazards. This guide shows you how to adjust both disc and drum brakes yourself.</p>
+          <div class="blog-card-meta">
+            <span>Feb 5, 2025</span>
+            <span>10 min read</span>
+            <a href="posts/electric-scooter-maintenance-guide.html" class="text-link" style="margin-left:auto;">Read →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEWSLETTER ===== -->
+<section class="newsletter-section">
+  <div class="container">
+    <div style="max-width:560px;margin:0 auto;text-align:center;">
+      <div style="font-size:2.5rem;margin-bottom:1rem;">📬</div>
+      <h2>Get Weekly Scooter Tips</h2>
+      <p>Join 15,000+ riders who get our best guides, tips, and scooter news every week. No spam, unsubscribe anytime.</p>
+      <form class="newsletter-form" action="#" method="post">
+        <input type="email" placeholder="Enter your email address" required aria-label="Email address" />
+        <button type="submit" class="btn btn-primary">Subscribe Free</button>
+      </form>
+      <p class="newsletter-disclaimer">We respect your privacy. Unsubscribe at any time.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-bolt">⚡</span>
+          eScooter<span>Haven</span>
+        </a>
+        <p style="margin-top:1rem;">Your trusted source for electric scooter guides, repairs, and buying advice since 2024. We help riders fix, maintain, and choose the right scooter.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="start-here.html">Start Here</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Top Categories</h4>
+        <ul>
+          <li><a href="blog.html#repair">Repair Guides</a></li>
+          <li><a href="blog.html#buying">Buying Guides</a></li>
+          <li><a href="blog.html#battery">Battery &amp; Charging</a></li>
+          <li><a href="blog.html#troubleshooting">Troubleshooting</a></li>
+          <li><a href="blog.html#maintenance">Maintenance</a></li>
+          <li><a href="blog.html#safety">Safety Tips</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact &amp; Follow</h4>
+        <div class="footer-contact-item">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          <a href="mailto:contact@escooterhaven.com" style="color:var(--gray-400);transition:var(--transition);">contact@escooterhaven.com</a>
+        </div>
+        <p style="font-size:0.875rem;margin-bottom:0.5rem;">Follow us:</p>
+        <div class="social-links">
+          <a href="#" class="social-link" title="Instagram">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-link" title="YouTube">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.4a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75,15.02 15.5,12 9.75,8.98 9.75,15.02"/></svg>
+          </a>
+          <a href="#" class="social-link" title="Pinterest">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.04-2.83.18-.77 1.22-5.17 1.22-5.17s-.31-.62-.31-1.55c0-1.45.84-2.54 1.89-2.54.89 0 1.32.67 1.32 1.47 0 .9-.57 2.24-.87 3.49-.25 1.04.52 1.89 1.54 1.89 1.85 0 3.09-2.37 3.09-5.18 0-2.14-1.44-3.64-3.5-3.64-2.38 0-3.78 1.79-3.78 3.64 0 .72.28 1.49.62 1.91.07.08.08.15.06.23l-.23.94c-.04.14-.13.18-.29.11-1.09-.51-1.77-2.1-1.77-3.38 0-2.74 1.99-5.26 5.74-5.26 3.01 0 5.35 2.15 5.35 5.01 0 2.99-1.88 5.39-4.49 5.39-.88 0-1.7-.46-1.98-1l-.54 2.02c-.19.74-.72 1.67-1.08 2.24.81.25 1.67.39 2.56.39 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+          </a>
+          <a href="#" class="social-link" title="Twitter / X">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.213 5.567zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 eScooterHaven.com — All rights reserved</p>
+      <div class="footer-bottom-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="privacy.html#affiliate">Affiliate Disclosure</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button id="back-to-top" aria-label="Back to top">
+  <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
