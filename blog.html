@@ -92,157 +92,15 @@
         <div id="repair"></div>
         <div style="margin-bottom:2rem;">
           <h2 style="font-size:1.35rem;margin-bottom:0.25rem;">All Articles</h2>
-          <p style="color:var(--gray-600);font-size:0.9rem;margin:0;">Showing 9 of 200+ articles</p>
+          <p style="color:var(--gray-600);font-size:0.9rem;margin:0;" id="post-count">Loading articles...</p>
         </div>
 
-        <div class="blog-grid">
-          <!-- Post 1 -->
-          <div class="blog-card">
-            <div class="blog-card-img img-repair">🔧</div>
-            <div class="blog-card-body">
-              <div class="blog-card-badge"><span class="badge badge-repair">Repair Guides</span></div>
-              <h3><a href="posts/how-to-fix-electric-scooter-not-turning-on.html">How to Fix an Electric Scooter That Won't Turn On</a></h3>
-              <p>Eight causes covered in depth — from a flat battery to a faulty kill switch — with step-by-step diagnosis and fixes for each.</p>
-              <div class="blog-card-meta">
-                <span>Jan 15, 2025</span>
-                <span>8 min read</span>
-                <a href="posts/how-to-fix-electric-scooter-not-turning-on.html" class="text-link" style="margin-left:auto;">Read →</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 2 -->
-          <div class="blog-card">
-            <div class="blog-card-img img-buying">🛴</div>
-            <div class="blog-card-body">
-              <div class="blog-card-badge"><span class="badge badge-buying">Buying Guides</span></div>
-              <h3><a href="posts/best-electric-scooters-beginners.html">Best Electric Scooters for Beginners in 2025</a></h3>
-              <p>Top 5 beginner-friendly scooters with comparison table, budget options, and what specs actually matter for new riders.</p>
-              <div class="blog-card-meta">
-                <span>Feb 3, 2025</span>
-                <span>12 min read</span>
-                <a href="posts/best-electric-scooters-beginners.html" class="text-link" style="margin-left:auto;">Read →</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 3 -->
-          <div id="tires" class="blog-card">
-            <div class="blog-card-img img-tires">🔩</div>
-            <div class="blog-card-body">
-              <div class="blog-card-badge"><span class="badge badge-repair">Repair Guides</span></div>
-              <h3><a href="posts/how-to-replace-scooter-tires.html">How to Replace Electric Scooter Tires (Complete Guide)</a></h3>
-              <p>Tools needed, tube vs tubeless differences, and a full step-by-step walkthrough so you can do it yourself in under an hour.</p>
-              <div class="blog-card-meta">
-                <span>Mar 5, 2025</span>
-                <span>11 min read</span>
-                <a href="posts/how-to-replace-scooter-tires.html" class="text-link" style="margin-left:auto;">Read →</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 4 -->
-          <div id="battery" class="blog-card">
-            <div class="blog-card-img img-battery">🔋</div>
-            <div class="blog-card-body">
-              <div class="blog-card-badge"><span class="badge badge-battery">Battery &amp; Charging</span></div>
-              <h3><a href="posts/electric-scooter-battery-not-charging.html">Electric Scooter Battery Not Charging? Here's Why</a></h3>
-              <p>Seven reasons your battery won't charge, from charger faults to BMS failures, plus when it's worth replacing the battery entirely.</p>
-              <div class="blog-card-meta">
-                <span>Mar 18, 2025</span>
-                <span>9 min read</span>
-                <a href="posts/electric-scooter-battery-not-charging.html" class="text-link" style="margin-left:auto;">Read →</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 5 -->
-          <div id="maintenance" class="blog-card">
-            <div class="blog-card-img img-maintenance">🛠️</div>
-            <div class="blog-card-body">
-              <div class="blog-card-badge"><span class="badge badge-maintenance">Maintenance</span></div>
-              <h3><a href="posts/electric-scooter-maintenance-guide.html">Complete Electric Scooter Maintenance Guide</a></h3>
-              <p>Everything from weekly tire checks to annual deep-service, with printable monthly checklists to keep your scooter in top shape.</p>
-              <div class="blog-card-meta">
-                <span>Mar 10, 2025</span>
-                <span>15 min read</span>
-                <a href="posts/electric-scooter-maintenance-guide.html" class="text-link" style="margin-left:auto;">Read →</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 6 (extra) -->
-          <div id="troubleshooting" class="blog-card">
-            <div class="blog-card-img img-trouble">⚡</div>
-            <div class="blog-card-body">
-              <div class="blog-card-badge"><span class="badge badge-trouble">Troubleshooting</span></div>
-              <h3><a href="posts/how-to-fix-electric-scooter-not-turning-on.html">Electric Scooter Making Grinding Noise? 6 Causes &amp; Fixes</a></h3>
-              <p>Grinding, clicking, or rattling noises are your scooter asking for help. We identify every common noise and its fix.</p>
-              <div class="blog-card-meta">
-                <span>Jan 28, 2025</span>
-                <span>7 min read</span>
-                <a href="posts/how-to-fix-electric-scooter-not-turning-on.html" class="text-link" style="margin-left:auto;">Read →</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 7 -->
-          <div id="safety" class="blog-card">
-            <div class="blog-card-img img-safety">🪖</div>
-            <div class="blog-card-body">
-              <div class="blog-card-badge"><span class="badge badge-safety">Safety Tips</span></div>
-              <h3><a href="start-here.html">Electric Scooter Safety: 12 Rules Every Rider Must Know</a></h3>
-              <p>From helmet selection to navigating traffic — the safety fundamentals that could save your life on two wheels.</p>
-              <div class="blog-card-meta">
-                <span>Jan 10, 2025</span>
-                <span>6 min read</span>
-                <a href="start-here.html" class="text-link" style="margin-left:auto;">Read →</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 8 -->
-          <div id="buying" class="blog-card">
-            <div class="blog-card-img img-buying">💡</div>
-            <div class="blog-card-body">
-              <div class="blog-card-badge"><span class="badge badge-buying">Buying Guides</span></div>
-              <h3><a href="posts/best-electric-scooters-beginners.html">Electric Scooter Under $500: Best Budget Picks for 2025</a></h3>
-              <p>You don't need to spend a fortune for a reliable scooter. Our picks prove you can get great performance on a tight budget.</p>
-              <div class="blog-card-meta">
-                <span>Feb 14, 2025</span>
-                <span>10 min read</span>
-                <a href="posts/best-electric-scooters-beginners.html" class="text-link" style="margin-left:auto;">Read →</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 9 -->
-          <div id="accessories" class="blog-card">
-            <div class="blog-card-img img-motor">🔌</div>
-            <div class="blog-card-body">
-              <div class="blog-card-badge"><span class="badge badge-accessories">Accessories</span></div>
-              <h3><a href="start-here.html">10 Must-Have Electric Scooter Accessories in 2025</a></h3>
-              <p>From phone mounts to puncture repair kits, these accessories make every ride safer, more comfortable, and more convenient.</p>
-              <div class="blog-card-meta">
-                <span>Mar 1, 2025</span>
-                <span>8 min read</span>
-                <a href="start-here.html" class="text-link" style="margin-left:auto;">Read →</a>
-              </div>
-            </div>
-          </div>
-        </div><!-- /blog-grid -->
+        <div class="blog-grid" id="blog-grid">
+          <!-- Posts injected by JS -->
+        </div>
 
         <!-- Pagination -->
-        <div class="pagination">
-          <button class="page-btn arrow">←</button>
-          <button class="page-btn active">1</button>
-          <button class="page-btn">2</button>
-          <button class="page-btn">3</button>
-          <button class="page-btn">4</button>
-          <span style="color:var(--gray-400);padding:0 0.25rem;">…</span>
-          <button class="page-btn">22</button>
-          <button class="page-btn arrow">→</button>
-        </div>
+        <div class="pagination" id="pagination"></div>
       </main>
 
       <!-- Sidebar -->
@@ -432,6 +290,88 @@
   <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
 </button>
 
+<script src="js/posts-data.js"></script>
 <script src="js/main.js"></script>
+<script>
+(function() {
+  const POSTS_PER_PAGE = 9;
+  let currentPage = 1;
+  let filteredPosts = ALL_POSTS;
+
+  function renderPosts(page) {
+    const grid = document.getElementById('blog-grid');
+    const counter = document.getElementById('post-count');
+    const start = (page - 1) * POSTS_PER_PAGE;
+    const pagePosts = filteredPosts.slice(start, start + POSTS_PER_PAGE);
+
+    counter.textContent = `Showing ${filteredPosts.length} articles`;
+
+    grid.innerHTML = pagePosts.map(p => `
+      <div class="blog-card">
+        <div class="blog-card-img" style="display:flex;align-items:center;justify-content:center;font-size:2.5rem;background:linear-gradient(135deg,#1e293b,#334155);">${p.emoji}</div>
+        <div class="blog-card-body">
+          <div class="blog-card-badge"><span class="badge ${p.badge_class}">${p.badge_label}</span></div>
+          <h3><a href="${p.file}">${p.title}</a></h3>
+          <p>${p.desc}</p>
+          <div class="blog-card-meta">
+            <span>March 2025</span>
+            <span>${p.read_time}</span>
+            <a href="${p.file}" class="text-link" style="margin-left:auto;">Read →</a>
+          </div>
+        </div>
+      </div>
+    `).join('');
+
+    renderPagination(page);
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+
+  function renderPagination(page) {
+    const totalPages = Math.ceil(filteredPosts.length / POSTS_PER_PAGE);
+    const pag = document.getElementById('pagination');
+    let html = '';
+
+    html += `<button class="page-btn arrow" ${page === 1 ? 'disabled' : ''} onclick="goToPage(${page - 1})">←</button>`;
+
+    for (let i = 1; i <= totalPages; i++) {
+      if (i === 1 || i === totalPages || (i >= page - 2 && i <= page + 2)) {
+        html += `<button class="page-btn ${i === page ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+      } else if (i === page - 3 || i === page + 3) {
+        html += `<span style="color:var(--gray-400);padding:0 0.25rem;">…</span>`;
+      }
+    }
+
+    html += `<button class="page-btn arrow" ${page === totalPages ? 'disabled' : ''} onclick="goToPage(${page + 1})">→</button>`;
+    pag.innerHTML = html;
+  }
+
+  window.goToPage = function(page) {
+    currentPage = page;
+    renderPosts(page);
+  };
+
+  // Filter pills
+  document.querySelectorAll('.filter-pill').forEach(pill => {
+    pill.addEventListener('click', function() {
+      document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+      this.classList.add('active');
+      const filter = this.textContent.trim().toLowerCase();
+      if (filter === 'all') {
+        filteredPosts = ALL_POSTS;
+      } else {
+        filteredPosts = ALL_POSTS.filter(p =>
+          p.badge_label.toLowerCase().includes(filter) ||
+          p.badge_class.toLowerCase().includes(filter)
+        );
+      }
+      currentPage = 1;
+      renderPosts(1);
+    });
+  });
+
+  // Initial render
+  renderPosts(1);
+})();
+</script>
 </body>
 </html>
