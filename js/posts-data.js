@@ -6,16 +6,16 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/best-electric-scooters-beginners.html",
-    "title": "Best Electric Scooters for Beginners in 2025 \u2014 Top 5 Picks",
+    "title": "Best Electric Scooters for Beginners in 2025 — Top 5 Picks",
     "desc": "The best electric scooters for beginners in 2025, tested and ranked. Includes a comparison table, what specs to look for, and budg",
     "badge_class": "badge-buying",
     "badge_label": "Buying Guides",
     "read_time": "12 min read",
-    "emoji": "\ud83d\udef4"
+    "emoji": "🛴"
   },
   {
     "file": "posts/bird-scooter-wiring-diagram.html",
@@ -24,16 +24,16 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/blue-light-flashing-on-mobility-scooter.html",
-    "title": "Blue Light Flashing on Mobility Scooter? Here\\'s What It Means",
+    "title": "Blue Light Flashing on Mobility Scooter? Here's What It Means",
     "desc": "A flashing blue light on your mobility scooter is a diagnostic signal. Learn what the different flash patterns mean, how to troubl",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/can-a-clogged-muffler-cause-loss-of-power.html",
@@ -42,7 +42,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/convert-spin-scooter-to-personal.html",
@@ -51,7 +51,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/do-hoverboards-read-your-brain.html",
@@ -60,7 +60,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "5 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/does-a-hoverboard-read-your-brain.html",
@@ -69,7 +69,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "5 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/does-riding-an-electric-scooter-burn-calories.html",
@@ -78,7 +78,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/e-scooter-tire-repair.html",
@@ -87,16 +87,16 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/electric-scooter-battery-not-charging.html",
     "title": "Electric Scooter Battery Not Charging? 7 Causes &amp; How to Fix Them",
-    "desc": "Electric scooter battery won\\'t charge? We diagnose 7 common causes \u2014 charger faults, BMS issues, damaged ports \u2014 and explain how t",
+    "desc": "Electric scooter battery won't charge? We diagnose 7 common causes — charger faults, BMS issues, damaged ports — and explain how t",
     "badge_class": "badge-battery",
     "badge_label": "Battery &amp; Charging",
     "read_time": "9 min read",
-    "emoji": "\ud83d\udd0b"
+    "emoji": "🔋"
   },
   {
     "file": "posts/electric-scooter-brake-adjustment.html",
@@ -105,25 +105,25 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/electric-scooter-circuit-breaker-location.html",
-    "title": "Find Your E-Scooter Circuit Breaker: A Rider\\'s Guide",
-    "desc": "Can\\'t find your electric scooter\\'s circuit breaker? Our guide explains common locations, why it trips, and how to safely reset it ",
+    "title": "Find Your E-Scooter Circuit Breaker: A Rider's Guide",
+    "desc": "Can't find your electric scooter's circuit breaker? Our guide explains common locations, why it trips, and how to safely reset it ",
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "5 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/electric-scooter-error-codes.html",
-    "title": "Electric Scooter Error Codes: A Complete Troubleshooting Guide",
-    "desc": "Decode your scooter\\'s error messages! Our guide explains common electric scooter error codes, what they mean, and how to fix them ",
+    "title": "Decode Your Scooter: A Guide to Electric Scooter Error Codes",
+    "desc": "Confused by beeps and error codes on your e-scooter? Our guide explains common error codes, what they mean, and how to fix them to",
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/electric-scooter-flat-tire-repair.html",
@@ -132,34 +132,43 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/electric-scooter-fuse-location.html",
     "title": "Find & Replace Your Electric Scooter Fuse: A Guide",
-    "desc": "Can\\'t find your electric scooter\\'s fuse? Our guide covers common fuse locations, how to check it, and step-by-step replacement ins",
+    "desc": "Can't find your electric scooter's fuse? Our guide covers common fuse locations, how to check it, and step-by-step replacement ins",
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "6 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/electric-scooter-laws-michigan.html",
-    "title": "Michigan Electric Scooter Laws: A 2024 Rider\\'s Guide",
-    "desc": "Navigate Michigan\\'s e-scooter laws with confidence. Learn where to ride, age & helmet rules, DUI laws, and local ordinances for sa",
+    "title": "Michigan Electric Scooter Laws: A 2024 Rider's Guide",
+    "desc": "Navigate Michigan's e-scooter laws with confidence. Learn where to ride, age & helmet rules, DUI laws, and local ordinances for sa",
     "badge_class": "badge-safety",
     "badge_label": "Safety & Laws",
     "read_time": "6 min read",
-    "emoji": "\ud83e\ude96"
+    "emoji": "🪖"
   },
   {
     "file": "posts/electric-scooter-maintenance-guide.html",
-    "title": "Complete Electric Scooter Maintenance Guide \u2014 Monthly Checklist",
-    "desc": "The complete electric scooter maintenance guide \u2014 weekly checks, monthly checklist, tire care, brake adjustment, cleaning, lubrica",
+    "title": "Complete Electric Scooter Maintenance Guide — Monthly Checklist",
+    "desc": "The complete electric scooter maintenance guide — weekly checks, monthly checklist, tire care, brake adjustment, cleaning, lubrica",
     "badge_class": "badge-maintenance",
     "badge_label": "Maintenance",
     "read_time": "15 min read",
-    "emoji": "\ud83d\udee0\ufe0f"
+    "emoji": "🛠️"
+  },
+  {
+    "file": "posts/electric-scooter-shuts-off-while-riding.html",
+    "title": "Why Your Electric Scooter Shuts Off While Riding & How to Fix It",
+    "desc": "Your e-scooter shutting off mid-ride is dangerous & frustrating. Learn the top causes, from battery issues to loose connections, a",
+    "badge_class": "badge-tips",
+    "badge_label": "Tips & Tricks",
+    "read_time": "7 min read",
+    "emoji": "⚡"
   },
   {
     "file": "posts/electric-scooter-throttle-not-working.html",
@@ -168,7 +177,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/electric-scooter-throttle-repair.html",
@@ -177,7 +186,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/electric-scooter-throttle-wiring-diagram.html",
@@ -186,7 +195,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/electric-scooter-tire-repair.html",
@@ -195,7 +204,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/electric-scooter-troubleshooting.html",
@@ -204,7 +213,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "8 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/fix-a-flat-scooter-tire.html",
@@ -213,7 +222,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/fix-electric-scooter-tire.html",
@@ -222,7 +231,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/fix-scooter-tire.html",
@@ -231,7 +240,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/go-go-mobility-scooter-troubleshooting.html",
@@ -240,7 +249,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/gotrax-e3-error-code-reset.html",
@@ -249,7 +258,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "6 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/gotrax-gxl-v2-brake-adjustment.html",
@@ -258,16 +267,16 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/gotrax-gxl-v2-not-accelerating.html",
     "title": "Fix Your GoTrax GXL V2 Not Accelerating | Troubleshooting Guide",
-    "desc": "Your GoTrax GXL V2 won\\'t accelerate? Learn how to diagnose and fix common issues like throttle problems, brake sensors, and batter",
+    "desc": "Your GoTrax GXL V2 won't accelerate? Learn how to diagnose and fix common issues like throttle problems, brake sensors, and batter",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/gotrax-throttle-not-working.html",
@@ -276,7 +285,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/green-power-scooter-problems.html",
@@ -285,16 +294,16 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/hover-1-electric-scooter-charge-display.html",
     "title": "Hover-1 Scooter Charge Display: Your Complete Guide",
-    "desc": "Learn how to read, troubleshoot, and maximize your Hover-1 electric scooter\\'s battery charge display. Get tips for accurate readin",
+    "desc": "Learn how to read, troubleshoot, and maximize your Hover-1 electric scooter's battery charge display. Get tips for accurate readin",
     "badge_class": "badge-battery",
     "badge_label": "Battery & Charging",
     "read_time": "6 min read",
-    "emoji": "\ud83d\udd0b"
+    "emoji": "🔋"
   },
   {
     "file": "posts/how-do-lime-scooters-charge.html",
@@ -303,7 +312,7 @@ const ALL_POSTS = [
     "badge_class": "badge-battery",
     "badge_label": "Battery & Charging",
     "read_time": "6 min read",
-    "emoji": "\ud83d\udd0b"
+    "emoji": "🔋"
   },
   {
     "file": "posts/how-fast-are-lime-scooters.html",
@@ -312,7 +321,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "5 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-fast-do-lime-scooters-go.html",
@@ -321,7 +330,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "5 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-fast-is-2000w-in-mph.html",
@@ -330,16 +339,16 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-high-should-scooter-handlebars-be.html",
-    "title": "Perfect Scooter Handlebar Height: A Rider\\'s Guide",
+    "title": "Perfect Scooter Handlebar Height: A Rider's Guide",
     "desc": "Learn how to find the ideal electric scooter handlebar height for comfort, control, and safety. Our guide covers adjustments, ergo",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-much-does-a-hoverboard-weigh.html",
@@ -348,7 +357,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "5 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-calibrate-hoverboard.html",
@@ -357,7 +366,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-charge-a-gotrax-scooter-without-charger.html",
@@ -366,7 +375,7 @@ const ALL_POSTS = [
     "badge_class": "badge-battery",
     "badge_label": "Battery & Charging",
     "read_time": "6 min read",
-    "emoji": "\ud83d\udd0b"
+    "emoji": "🔋"
   },
   {
     "file": "posts/how-to-charge-a-razor-scooter-without-the-charger.html",
@@ -375,7 +384,7 @@ const ALL_POSTS = [
     "badge_class": "badge-battery",
     "badge_label": "Battery & Charging",
     "read_time": "6 min read",
-    "emoji": "\ud83d\udd0b"
+    "emoji": "🔋"
   },
   {
     "file": "posts/how-to-do-a-tailwhip-on-a-scooter.html",
@@ -384,7 +393,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "8 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-end-lime-ride-without-app.html",
@@ -393,16 +402,16 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "5 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-fix-electric-scooter-not-turning-on.html",
-    "title": "How to Fix an Electric Scooter That Won\\'t Turn On (8 Causes &amp; Fixes)",
-    "desc": "Electric scooter won\\'t turn on? We cover all 8 causes \u2014 dead battery, blown fuse, faulty power button, kill switch \u2014 with step-by-",
+    "title": "How to Fix an Electric Scooter That Won't Turn On (8 Causes &amp; Fixes)",
+    "desc": "Electric scooter won't turn on? We cover all 8 causes — dead battery, blown fuse, faulty power button, kill switch — with step-by-",
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/how-to-fold-a-scooter.html",
@@ -411,16 +420,16 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "5 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-make-electric-scooter-faster.html",
     "title": "How to Make Your Electric Scooter Faster & Safer",
-    "desc": "Learn proven methods to increase your e-scooter\\'s speed. From simple tweaks to advanced upgrades, get safe, practical advice to bo",
+    "desc": "Learn proven methods to increase your e-scooter's speed. From simple tweaks to advanced upgrades, get safe, practical advice to bo",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "8 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-make-my-ninebot-go-faster.html",
@@ -429,7 +438,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-make-ninebot-scooter-faster.html",
@@ -438,25 +447,25 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-remove-speed-limiter-on-mobility-scooter.html",
     "title": "Removing a Mobility Scooter Speed Limiter: Safety & Legal Guide",
-    "desc": "Considering removing your mobility scooter\\'s speed limiter? Learn the legal, safety, and technical implications, plus expert alter",
+    "desc": "Considering removing your mobility scooter's speed limiter? Learn the legal, safety, and technical implications, plus expert alter",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-remove-speed-limiter-on-segway-ninebot.html",
     "title": "How to Remove a Segway Ninebot Speed Limiter Safely",
-    "desc": "Considering removing your Ninebot scooter\\'s speed limiter? Learn the methods, risks, and legal implications in this detailed, expe",
+    "desc": "Considering removing your Ninebot scooter's speed limiter? Learn the methods, risks, and legal implications in this detailed, expe",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "8 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-replace-battery-in-mobility-scooter.html",
@@ -465,16 +474,16 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/how-to-replace-scooter-tires.html",
-    "title": "How to Replace Electric Scooter Tires \u2014 Complete Step-by-Step Guide",
-    "desc": "Learn exactly how to replace your electric scooter tire \u2014 tube-type and tubeless. Tools needed, step-by-step instructions, and tip",
+    "title": "How to Replace Electric Scooter Tires — Complete Step-by-Step Guide",
+    "desc": "Learn exactly how to replace your electric scooter tire — tube-type and tubeless. Tools needed, step-by-step instructions, and tip",
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "11 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/how-to-reset-unagi-scooter.html",
@@ -483,7 +492,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/how-to-ship-electric-scooter-overseas.html",
@@ -492,7 +501,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "8 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-start-a-mobility-scooter-without-a-key.html",
@@ -501,7 +510,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "5 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-turn-off-speed-limit-on-segway-ninebot.html",
@@ -510,7 +519,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-unbind-segway-ninebot-without-app.html",
@@ -519,7 +528,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-unbind-segway-ninebot.html",
@@ -528,7 +537,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-unfold-razor-scooter.html",
@@ -537,7 +546,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "4 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/how-to-use-a-knee-scooter-with-a-boot.html",
@@ -546,7 +555,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/jetson-hoverboard-problems.html",
@@ -555,7 +564,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/kugoo-kirin-g3-problems.html",
@@ -564,7 +573,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/kymco-scooter-reviews.html",
@@ -573,16 +582,16 @@ const ALL_POSTS = [
     "badge_class": "badge-buying",
     "badge_label": "Buying Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udef4"
+    "emoji": "🛴"
   },
   {
     "file": "posts/kymco-x-town-300i-problems.html",
     "title": "Kymco X-Town 300i Common Problems & Solutions Guide",
-    "desc": "Learn about common Kymco X-Town 300i problems, from CVT belt wear to electrical gremlins. Get practical fixes and maintenance tips",
+    "desc": "Experiencing Kymco X-Town 300i problems? Our guide covers common issues like CVT belt wear, battery drain, and sensor faults with ",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
-    "read_time": "8 min read",
-    "emoji": "\u26a1"
+    "read_time": "7 min read",
+    "emoji": "⚡"
   },
   {
     "file": "posts/lightest-folding-mobility-scooter.html",
@@ -591,16 +600,16 @@ const ALL_POSTS = [
     "badge_class": "badge-buying",
     "badge_label": "Buying Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udef4"
+    "emoji": "🛴"
   },
   {
     "file": "posts/lime-bike-charging.html",
-    "title": "How to Charge a Lime Scooter: A Juicer\\'s Complete Guide",
+    "title": "How to Charge a Lime Scooter: A Juicer's Complete Guide",
     "desc": "Learn how to become a Lime Juicer. Our guide covers picking up, charging, and releasing Lime scooters for payment, with tips for m",
     "badge_class": "badge-battery",
     "badge_label": "Battery & Charging",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd0b"
+    "emoji": "🔋"
   },
   {
     "file": "posts/lime-scooter-free-ride-hack.html",
@@ -609,7 +618,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "5 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/lime-scooter-gps-removal.html",
@@ -618,7 +627,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/lime-scooter-hack.html",
@@ -627,7 +636,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/lime-scooter-hacks.html",
@@ -636,7 +645,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/lime-scooter-speed.html",
@@ -645,7 +654,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/lime-scooter-top-speed.html",
@@ -654,7 +663,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "5 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/lime-scooter-wiring-diagram.html",
@@ -663,16 +672,16 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "6 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/michigan-electric-scooter-laws.html",
-    "title": "Michigan E-Scooter Laws: A 2024 Rider\\'s Guide",
-    "desc": "Navigate Michigan\\'s electric scooter laws with confidence. Our guide covers where to ride, helmet rules, age limits, and DUI laws ",
+    "title": "Michigan E-Scooter Laws: A 2024 Rider's Guide",
+    "desc": "Navigate Michigan's electric scooter laws with confidence. Our guide covers where to ride, helmet rules, age limits, and DUI laws ",
     "badge_class": "badge-safety",
     "badge_label": "Safety & Laws",
     "read_time": "6 min read",
-    "emoji": "\ud83e\ude96"
+    "emoji": "🪖"
   },
   {
     "file": "posts/mobility-scooter-battery-draining-fast.html",
@@ -681,7 +690,7 @@ const ALL_POSTS = [
     "badge_class": "badge-battery",
     "badge_label": "Battery & Charging",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udd0b"
+    "emoji": "🔋"
   },
   {
     "file": "posts/mobility-scooter-battery-problems.html",
@@ -690,16 +699,16 @@ const ALL_POSTS = [
     "badge_class": "badge-battery",
     "badge_label": "Battery & Charging",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udd0b"
+    "emoji": "🔋"
   },
   {
     "file": "posts/mobility-scooter-beeping-and-not-moving.html",
-    "title": "Mobility Scooter Beeping & Won\\'t Move? Fix It Fast",
-    "desc": "Your mobility scooter beeps and won\\'t move. Don\\'t panic! Our expert guide covers the 5 most common causes and step-by-step fixes t",
+    "title": "Mobility Scooter Beeping & Won't Move? Fix It Fast",
+    "desc": "Your mobility scooter beeps and won't move. Don't panic! Our expert guide covers the 5 most common causes and step-by-step fixes t",
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/mobility-scooter-continuous-beep.html",
@@ -708,25 +717,25 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/mobility-scooter-just-beeps.html",
     "title": "Mobility Scooter Just Beeps? How to Fix It Fast",
-    "desc": "Your mobility scooter beeping and won\\'t move? Learn the top causes, from battery issues to controller faults, and get step-by-step",
+    "desc": "Your mobility scooter beeping and won't move? Learn the top causes, from battery issues to controller faults, and get step-by-step",
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/mobility-scooter-speed-limiter-removal.html",
     "title": "Mobility Scooter Speed Limiter Removal: A Complete Guide",
-    "desc": "Considering removing your mobility scooter\\'s speed limiter? Learn the legal, safety, and technical implications before you decide.",
+    "desc": "Considering removing your mobility scooter's speed limiter? Learn the legal, safety, and technical implications before you decide.",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/mobility-scooter-troubleshooting-guide.html",
@@ -735,7 +744,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "8 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/mobility-scooter-troubleshooting.html",
@@ -744,16 +753,25 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
+  },
+  {
+    "file": "posts/mobility-scooter-weight.html",
+    "title": "Mobility Scooter Weight Guide: Capacity, Transport & More",
+    "desc": "Understand mobility scooter weight: user capacity, vehicle weight for transport, and how it impacts performance. Essential guide f",
+    "badge_class": "badge-buying",
+    "badge_label": "Buying Guides",
+    "read_time": "6 min read",
+    "emoji": "🛴"
   },
   {
     "file": "posts/nevada-electric-scooter-laws.html",
-    "title": "Nevada Electric Scooter Laws: A Rider\\'s Guide 2024",
-    "desc": "Navigate Nevada\\'s e-scooter laws with confidence. Learn where to ride, helmet rules, age limits, DUI laws, and local regulations f",
+    "title": "Nevada Electric Scooter Laws: A Rider's Guide 2024",
+    "desc": "Navigate Nevada's e-scooter laws with confidence. Learn where to ride, helmet rules, age limits, DUI laws, and local regulations f",
     "badge_class": "badge-safety",
     "badge_label": "Safety & Laws",
     "read_time": "6 min read",
-    "emoji": "\ud83e\ude96"
+    "emoji": "🪖"
   },
   {
     "file": "posts/ninebot-app.html",
@@ -762,7 +780,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/ninebot-by-segway-app.html",
@@ -771,7 +789,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "8 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/ninebot-max-speed-unlock.html",
@@ -780,16 +798,16 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "8 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/ninebot-scooter-app.html",
     "title": "Master Your Ninebot Scooter: The Official App Guide",
-    "desc": "Unlock your Ninebot scooter\\'s full potential. Our guide covers app setup, key features like cruise control & locking, troubleshoot",
+    "desc": "Unlock your Ninebot scooter's full potential. Our guide covers app setup, key features like cruise control & locking, troubleshoot",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/ninebot-speed-limiter.html",
@@ -798,7 +816,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/pride-mobility-scooter-speed-limiter-removal.html",
@@ -807,7 +825,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/remove-speed-limiter-on-segway-ninebot.html",
@@ -816,7 +834,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/reset-unagi-scooter.html",
@@ -825,7 +843,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "6 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/scooter-flat-tire-repair.html",
@@ -834,16 +852,16 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/scooter-handlebar-height.html",
-    "title": "Scooter Handlebar Height: A Complete Rider\\'s Guide",
+    "title": "Scooter Handlebar Height: A Complete Rider's Guide",
     "desc": "Learn why scooter handlebar height matters for comfort, control & safety. Our guide covers adjustment, ideal height, and tips for ",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/scooter-ignition-switch-replacement.html",
@@ -852,7 +870,16 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "8 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
+  },
+  {
+    "file": "posts/scooter-tire-repair.html",
+    "title": "How to Fix a Flat Electric Scooter Tire: A Complete Guide",
+    "desc": "Got a flat scooter tire? Learn how to repair punctures on air-filled and solid tires. Step-by-step instructions, essential tools, ",
+    "badge_class": "badge-repair",
+    "badge_label": "Repair Guides",
+    "read_time": "8 min read",
+    "emoji": "🔧"
   },
   {
     "file": "posts/segway-app.html",
@@ -861,7 +888,7 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/segway-bluetooth.html",
@@ -870,16 +897,16 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/segway-ninebot-app.html",
     "title": "Master Your Ride: The Complete Segway-Ninebot App Guide",
-    "desc": "Unlock your scooter\\'s full potential! Our guide covers the Segway-Ninebot app\\'s key features, from locking and diagnostics to cust",
+    "desc": "Unlock your scooter's full potential! Our guide covers the Segway-Ninebot app's key features, from locking and diagnostics to cust",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/segway-ninebot-remove-speed-limit.html",
@@ -888,25 +915,25 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "7 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/spin-scooter-free-ride-hack.html",
     "title": "Spin Scooter Free Ride Hack: Truth & Legit Promo Tips",
-    "desc": "Looking for a Spin scooter free ride hack? We reveal the truth about \\'hacks\\' and share legitimate ways to get free ride credits, p",
+    "desc": "Looking for a Spin scooter free ride hack? We reveal the truth about 'hacks' and share legitimate ways to get free ride credits, p",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "5 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/spin-scooter-hack.html",
     "title": "Spin Scooter Hacks: Safe Tips & What to Avoid",
-    "desc": "Looking for Spin scooter hacks? Discover practical, safe tips to improve your ride, plus crucial warnings about dangerous \\'hacks\\' ",
+    "desc": "Looking for Spin scooter hacks? Discover practical, safe tips to improve your ride, plus crucial warnings about dangerous 'hacks' ",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/unagi-scooter-reset-button.html",
@@ -915,7 +942,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "6 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/unbind-ninebot.html",
@@ -924,16 +951,16 @@ const ALL_POSTS = [
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/veo-scooter-gps-removal.html",
     "title": "Veo Scooter GPS: Removal, Legality & Rider Guide",
-    "desc": "Considering Veo scooter GPS removal? Learn why it\\'s illegal, the serious consequences, and practical tips for safe, responsible ri",
+    "desc": "Considering Veo scooter GPS removal? Learn why it's illegal, the serious consequences, and practical tips for safe, responsible ri",
     "badge_class": "badge-tips",
     "badge_label": "Tips & Tricks",
     "read_time": "6 min read",
-    "emoji": "\u26a1"
+    "emoji": "⚡"
   },
   {
     "file": "posts/vespa-primavera-vs-sprint.html",
@@ -942,7 +969,7 @@ const ALL_POSTS = [
     "badge_class": "badge-buying",
     "badge_label": "Buying Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udef4"
+    "emoji": "🛴"
   },
   {
     "file": "posts/vespa-sprint-vs-primavera.html",
@@ -951,7 +978,7 @@ const ALL_POSTS = [
     "badge_class": "badge-buying",
     "badge_label": "Buying Guides",
     "read_time": "7 min read",
-    "emoji": "\ud83d\udef4"
+    "emoji": "🛴"
   },
   {
     "file": "posts/where-is-mobility-scooter-reset-button.html",
@@ -960,7 +987,7 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "6 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   },
   {
     "file": "posts/where-is-the-reset-button-on-a-jetson-scooter.html",
@@ -969,6 +996,6 @@ const ALL_POSTS = [
     "badge_class": "badge-repair",
     "badge_label": "Repair Guides",
     "read_time": "5 min read",
-    "emoji": "\ud83d\udd27"
+    "emoji": "🔧"
   }
 ];
